@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#15283a" />
+    <title>BZ Hub · 山谷气象</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="scene" aria-label="BZ Hub 山谷气象动态桌面">
+      <div class="scene__sky" aria-hidden="true"></div>
+      <div class="scene__image" aria-hidden="true"></div>
+      <canvas class="scene__water" aria-hidden="true"></canvas>
+      <div class="scene__mist" aria-hidden="true"></div>
+      <div class="scene__atmosphere" aria-hidden="true"></div>
+      <canvas class="scene__particles" aria-hidden="true"></canvas>
+      <div class="scene__vignette" aria-hidden="true"></div>
+      <div class="scene__grain" aria-hidden="true"></div>
+    </main>
+    <script src="bridge.js"></script>
+    <script src="assets/geometry.js"></script>
+    <script src="scene-model.js"></script>
+    <script src="water-regions.js"></script>
+    <script src="renderer.js"></script>
+    <script src="ambient-audio.js"></script>
+    <script src="wallpaper.js"></script>
+  </body>
+</html>

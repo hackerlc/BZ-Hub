@@ -1,0 +1,6 @@
+allowBuilds:
+  esbuild: true
+onlyBuiltDependencies:
+  - esbuild
+packageImportMethod: copy
+confirmModulesPurge: false

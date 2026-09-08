@@ -1,0 +1,93 @@
+[
+  {
+    "name": "day",
+    "source": "OpenAI image generation output; local path omitted for publication",
+    "prompt": "Use case: precise-object-edit / landscape outpainting. Asset: BZ Hub Wallpaper Engine desktop background, day state. Image 1 is the EDIT TARGET. Expand ONLY horizontally into an ultrawide image, exact 3440 by 1440 pixels (43:18 aspect). Preserve the entire original image's vertical field of view, the river, mountain, existing trees and rocks, original lighting/time/weather, viewpoint and photorealistic detail. Fit the original image proportionally in the middle occupying about 74.4% of the new width, and invent seamless natural continuation of forest/riverbank on the leftmost and rightmost 12.8% each. Do not stretch, do not crop top or bottom, do not zoom in, do not add mountains/objects over the existing center. All output is one continuous full-bleed photograph, no bars, no panels, no text, no borders or watermarks. Keep the river center around x=0.5 and vanishing point at y=0.45. Match the provided day lighting/weather precisely. Output one image only at 3440x1440.",
+    "generatedSize": [
+      1939,
+      811
+    ],
+    "deliveredSize": [
+      3440,
+      1440
+    ]
+  },
+  {
+    "name": "dawn",
+    "source": "OpenAI image generation output; local path omitted for publication",
+    "prompt": "Use case: precise-object-edit / landscape outpainting. Asset: BZ Hub Wallpaper Engine desktop background, dawn state. Image 1 is the EDIT TARGET. Expand ONLY horizontally into an ultrawide image, exact 3440 by 1440 pixels (43:18 aspect). Preserve the entire original image's vertical field of view, the river, mountain, existing trees and rocks, original lighting/time/weather, viewpoint and photorealistic detail. Fit the original image proportionally in the middle occupying about 74.4% of the new width, and invent seamless natural continuation of forest/riverbank on the leftmost and rightmost 12.8% each. Do not stretch, do not crop top or bottom, do not zoom in, do not add mountains/objects over the existing center. All output is one continuous full-bleed photograph, no bars, no panels, no text, no borders or watermarks. Keep the river center around x=0.5 and vanishing point at y=0.45. Match the provided dawn lighting/weather precisely. Output one image only at 3440x1440.",
+    "generatedSize": [
+      1937,
+      812
+    ],
+    "deliveredSize": [
+      3440,
+      1440
+    ]
+  },
+  {
+    "name": "dusk",
+    "source": "OpenAI image generation output; local path omitted for publication",
+    "prompt": "Use case: precise-object-edit / landscape outpainting. Asset: BZ Hub Wallpaper Engine desktop background, dusk state. Image 1 is the EDIT TARGET. Expand ONLY horizontally into an ultrawide image, exact 3440 by 1440 pixels (43:18 aspect). Preserve the entire original image's vertical field of view, the river, mountain, existing trees and rocks, original lighting/time/weather, viewpoint and photorealistic detail. Fit the original image proportionally in the middle occupying about 74.4% of the new width, and invent seamless natural continuation of forest/riverbank on the leftmost and rightmost 12.8% each. Do not stretch, do not crop top or bottom, do not zoom in, do not add mountains/objects over the existing center. All output is one continuous full-bleed photograph, no bars, no panels, no text, no borders or watermarks. Keep the river center around x=0.5 and vanishing point at y=0.45. Match the provided dusk lighting/weather precisely. Output one image only at 3440x1440.",
+    "generatedSize": [
+      1939,
+      811
+    ],
+    "deliveredSize": [
+      3440,
+      1440
+    ]
+  },
+  {
+    "name": "night",
+    "source": "OpenAI image generation output; local path omitted for publication",
+    "prompt": "Use case: precise-object-edit / landscape outpainting. Asset: BZ Hub Wallpaper Engine desktop background, night state. Image 1 is the EDIT TARGET. Expand ONLY horizontally into an ultrawide image, exact 3440 by 1440 pixels (43:18 aspect). Preserve the entire original image's vertical field of view, the river, mountain, existing trees and rocks, original lighting/time/weather, viewpoint and photorealistic detail. Fit the original image proportionally in the middle occupying about 74.4% of the new width, and invent seamless natural continuation of forest/riverbank on the leftmost and rightmost 12.8% each. Do not stretch, do not crop top or bottom, do not zoom in, do not add mountains/objects over the existing center. All output is one continuous full-bleed photograph, no bars, no panels, no text, no borders or watermarks. Keep the river center around x=0.5 and vanishing point at y=0.45. Match the provided night lighting/weather precisely. Output one image only at 3440x1440.",
+    "generatedSize": [
+      1938,
+      812
+    ],
+    "deliveredSize": [
+      3440,
+      1440
+    ]
+  },
+  {
+    "name": "fog",
+    "source": "OpenAI image generation output; local path omitted for publication",
+    "prompt": "Use case: precise-object-edit / landscape outpainting. Asset: BZ Hub Wallpaper Engine desktop background, fog state. Image 1 is the EDIT TARGET. Expand ONLY horizontally into an ultrawide image, exact 3440 by 1440 pixels (43:18 aspect). Preserve the entire original image's vertical field of view, the river, mountain, existing trees and rocks, original lighting/time/weather, viewpoint and photorealistic detail. Fit the original image proportionally in the middle occupying about 74.4% of the new width, and invent seamless natural continuation of forest/riverbank on the leftmost and rightmost 12.8% each. Do not stretch, do not crop top or bottom, do not zoom in, do not add mountains/objects over the existing center. All output is one continuous full-bleed photograph, no bars, no panels, no text, no borders or watermarks. Keep the river center around x=0.5 and vanishing point at y=0.45. Match the provided fog lighting/weather precisely. Output one image only at 3440x1440.",
+    "generatedSize": [
+      1938,
+      811
+    ],
+    "deliveredSize": [
+      3440,
+      1440
+    ]
+  },
+  {
+    "name": "rain",
+    "source": "OpenAI image generation output; local path omitted for publication",
+    "prompt": "Use case: precise-object-edit / landscape outpainting. Asset: BZ Hub Wallpaper Engine desktop background, rain state. Image 1 is the EDIT TARGET. Expand ONLY horizontally into an ultrawide image, exact 3440 by 1440 pixels (43:18 aspect). Preserve the entire original image's vertical field of view, the river, mountain, existing trees and rocks, original lighting/time/weather, viewpoint and photorealistic detail. Fit the original image proportionally in the middle occupying about 74.4% of the new width, and invent seamless natural continuation of forest/riverbank on the leftmost and rightmost 12.8% each. Do not stretch, do not crop top or bottom, do not zoom in, do not add mountains/objects over the existing center. All output is one continuous full-bleed photograph, no bars, no panels, no text, no borders or watermarks. Keep the river center around x=0.5 and vanishing point at y=0.45. Match the provided rain lighting/weather precisely. Output one image only at 3440x1440.",
+    "generatedSize": [
+      1939,
+      811
+    ],
+    "deliveredSize": [
+      3440,
+      1440
+    ]
+  },
+  {
+    "name": "snow",
+    "source": "OpenAI image generation output; local path omitted for publication",
+    "prompt": "Use case: precise-object-edit / landscape outpainting. Asset: BZ Hub Wallpaper Engine desktop background, snow state. Image 1 is the EDIT TARGET. Expand ONLY horizontally into an ultrawide image, exact 3440 by 1440 pixels (43:18 aspect). Preserve the entire original image's vertical field of view, the river, mountain, existing trees and rocks, original lighting/time/weather, viewpoint and photorealistic detail. Fit the original image proportionally in the middle occupying about 74.4% of the new width, and invent seamless natural continuation of forest/riverbank on the leftmost and rightmost 12.8% each. Do not stretch, do not crop top or bottom, do not zoom in, do not add mountains/objects over the existing center. All output is one continuous full-bleed photograph, no bars, no panels, no text, no borders or watermarks. Keep the river center around x=0.5 and vanishing point at y=0.45. Match the provided snow lighting/weather precisely. Output one image only at 3440x1440.",
+    "generatedSize": [
+      1939,
+      811
+    ],
+    "deliveredSize": [
+      3440,
+      1440
+    ]
+  }
+]

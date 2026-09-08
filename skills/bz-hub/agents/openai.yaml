@@ -1,0 +1,15 @@
+interface:
+  display_name: "BZ Hub 控制"
+  short_description: "通过对话安全打开已配置入口，并管理 BZ Hub 日历事项"
+  brand_color: "#7C8CFF"
+  default_prompt: "使用 $bz-hub 查找并打开一个已配置入口，或管理我的 BZ Hub 日历事项。"
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "bz-hub"
+      description: "连接当前电脑上的 BZ Hub 本地控制桥接。"
+      transport: "stdio"
+
+policy:
+  allow_implicit_invocation: true

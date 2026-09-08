@@ -1,0 +1,148 @@
+{
+  "file": "index.html",
+  "general": {
+    "properties": {
+      "timesource": {
+        "index": 0,
+        "options": [
+          {
+            "label": "ui_time_auto",
+            "value": "auto"
+          },
+          {
+            "label": "ui_time_dawn",
+            "value": "dawn"
+          },
+          {
+            "label": "ui_time_day",
+            "value": "day"
+          },
+          {
+            "label": "ui_time_dusk",
+            "value": "dusk"
+          },
+          {
+            "label": "ui_time_night",
+            "value": "night"
+          }
+        ],
+        "order": 0,
+        "text": "ui_time_source",
+        "type": "combo",
+        "value": "auto"
+      },
+      "weathersource": {
+        "index": 1,
+        "options": [
+          {
+            "label": "ui_weather_auto",
+            "value": "auto"
+          },
+          {
+            "label": "ui_weather_clear",
+            "value": "clear"
+          },
+          {
+            "label": "ui_weather_fog",
+            "value": "fog"
+          },
+          {
+            "label": "ui_weather_rain_light",
+            "value": "rain_light"
+          },
+          {
+            "label": "ui_weather_rain_medium",
+            "value": "rain_medium"
+          },
+          {
+            "label": "ui_weather_rain_heavy",
+            "value": "rain_heavy"
+          },
+          {
+            "label": "ui_weather_thunderstorm",
+            "value": "thunderstorm"
+          },
+          {
+            "label": "ui_weather_snow_light",
+            "value": "snow_light"
+          },
+          {
+            "label": "ui_weather_snow_medium",
+            "value": "snow_medium"
+          },
+          {
+            "label": "ui_weather_snow_heavy",
+            "value": "snow_heavy"
+          }
+        ],
+        "order": 1,
+        "text": "ui_weather_source",
+        "type": "combo",
+        "value": "auto"
+      },
+      "ambientsound": {
+        "index": 2,
+        "order": 2,
+        "text": "ui_ambient_sound",
+        "type": "bool",
+        "value": true
+      },
+      "ambientvolume": {
+        "index": 3,
+        "order": 3,
+        "text": "ui_ambient_volume",
+        "type": "slider",
+        "value": 25,
+        "min": 0,
+        "max": 100,
+        "fraction": false
+      }
+    },
+    "localization": {
+      "en-us": {
+        "ui_time_source": "Time scene",
+        "ui_time_auto": "Automatic (BZ Hub / system time)",
+        "ui_time_dawn": "Dawn",
+        "ui_time_day": "Day",
+        "ui_time_dusk": "Dusk",
+        "ui_time_night": "Night",
+        "ui_weather_source": "Weather scene",
+        "ui_weather_auto": "Automatic (BZ Hub / clear)",
+        "ui_weather_clear": "Clear",
+        "ui_weather_fog": "Fog",
+        "ui_weather_rain_light": "Light rain",
+        "ui_weather_rain_medium": "Medium rain",
+        "ui_weather_rain_heavy": "Heavy rain",
+        "ui_weather_thunderstorm": "Thunderstorm",
+        "ui_weather_snow_light": "Light snow",
+        "ui_weather_snow_medium": "Medium snow",
+        "ui_weather_snow_heavy": "Heavy snow",
+        "ui_ambient_sound": "Ambient sound",
+        "ui_ambient_volume": "Ambient volume"
+      },
+      "zh-chs": {
+        "ui_time_source": "时间场景",
+        "ui_time_auto": "自动（BZ Hub / 系统时间）",
+        "ui_time_dawn": "固定为清晨",
+        "ui_time_day": "固定为白天",
+        "ui_time_dusk": "固定为黄昏",
+        "ui_time_night": "固定为夜晚",
+        "ui_weather_source": "天气场景",
+        "ui_weather_auto": "自动（BZ Hub / 晴朗）",
+        "ui_weather_clear": "晴朗",
+        "ui_weather_fog": "雾",
+        "ui_weather_rain_light": "小雨",
+        "ui_weather_rain_medium": "中雨",
+        "ui_weather_rain_heavy": "暴雨",
+        "ui_weather_thunderstorm": "强雷阵雨",
+        "ui_weather_snow_light": "小雪",
+        "ui_weather_snow_medium": "中雪",
+        "ui_weather_snow_heavy": "暴雪",
+        "ui_ambient_sound": "环境声音",
+        "ui_ambient_volume": "环境音量"
+      }
+    }
+  },
+  "title": "BZ Hub · 山谷气象",
+  "type": "web"
+}

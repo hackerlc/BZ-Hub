@@ -1,0 +1,128 @@
+import type { Category, LauncherState, LaunchItem } from "../types";
+import { createId } from "../lib/id";
+
+const createdAt = new Date().toISOString();
+
+const categories: Category[] = [
+  {
+    id: "cat-work",
+    name: "工作",
+    color: "#7c8cff",
+    sortOrder: 0,
+    createdAt,
+    updatedAt: createdAt,
+  },
+  {
+    id: "cat-tools",
+    name: "工具",
+    color: "#4cc9a4",
+    sortOrder: 1,
+    createdAt,
+    updatedAt: createdAt,
+  },
+  {
+    id: "cat-web",
+    name: "网页",
+    color: "#ffad66",
+    sortOrder: 2,
+    createdAt,
+    updatedAt: createdAt,
+  },
+];
+
+const items: LaunchItem[] = [
+  {
+    id: "sample-supabase",
+    name: "Supabase",
+    description: "数据库与同步控制台",
+    icon: "⚡",
+    color: "#3ecf8e",
+    kind: "url",
+    scope: "all",
+    url: "https://supabase.com/dashboard",
+    targets: {},
+    categoryId: "cat-work",
+    frequent: true,
+    favorite: true,
+    sortOrder: 0,
+    createdAt,
+    updatedAt: createdAt,
+  },
+  {
+    id: "sample-github",
+    name: "GitHub",
+    description: "代码仓库与协作",
+    icon: "⌘",
+    color: "#8b93a7",
+    kind: "url",
+    scope: "all",
+    url: "https://github.com",
+    targets: {},
+    categoryId: "cat-work",
+    frequent: true,
+    favorite: true,
+    sortOrder: 1,
+    createdAt,
+    updatedAt: createdAt,
+  },
+  {
+    id: "sample-weather",
+    name: "天气设置",
+    description: "在设置中修改所在城市",
+    icon: "☀",
+    color: "#f6bd60",
+    kind: "url",
+    scope: "all",
+    url: "https://open-meteo.com",
+    targets: {},
+    categoryId: "cat-tools",
+    frequent: true,
+    favorite: false,
+    sortOrder: 2,
+    createdAt,
+    updatedAt: createdAt,
+  },
+];
+
+export function createDefaultState(): LauncherState {
+  return {
+    version: 1,
+    deviceId: createId(),
+    categories,
+    items,
+    events: [],
+    calendarEntries: [],
+    sharedPreferences: {
+      weatherCity: "上海",
+      updatedAt: createdAt,
+    },
+    devicePreferences: {
+      launchAtLogin: false,
+      keepAwake: false,
+      taskbarTransparent: false,
+      wallpaperEnabled: false,
+      wallpaperEnginePath: "",
+      wallpaperProjectPath: "",
+      wallpaperSimulationEnabled: false,
+      wallpaperSimulationTime: "12:00",
+      wallpaperSimulationWeather: "clear",
+      wallpaperSimulationWindSpeed: 12,
+      aiControlEnabled: false,
+      aiControlToken: "",
+      shortcut: "CommandOrControl+Shift+Space",
+      hideOnBlur: false,
+      hideAfterLaunch: false,
+      syncOnDataChange: true,
+      syncOnNetworkReconnect: true,
+      syncOnWindowOpen: true,
+      syncOnExit: true,
+      qweatherApiHost: "",
+      qweatherApiKey: "",
+      homeView: "launcher",
+    },
+    syncMeta: {
+      enabled: false,
+      cloudRevision: 0,
+    },
+  };
+}
